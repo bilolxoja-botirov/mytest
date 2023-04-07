@@ -144,3 +144,92 @@ nav{
 .navbar a:active{
     opacity: 0.6;
 }
+.ad{
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.card{
+    width: 30%;
+    background: #F6F6F6;
+    border-radius: 15px;
+    padding: 25px 17px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 150ms linear;
+}
+.card h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.card p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+    margin-bottom: 20px;
+}
+.source{
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
+.source img{
+    margin-right: 10px;
+}
+.mainimg{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 0 0 10px 1px lightgray;
+    background-color: #fff;
+}
+.noti{
+    width: 50%;
+    margin: 0 auto;
+    background-image: url("./noti-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px 24px 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.noti button{
+    padding: 13px 30px;
+    background: #F78B3B;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}
