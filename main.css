@@ -255,6 +255,11 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.othercontent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
 .othercard{
     display: flex;
     padding: 20px 17px;
@@ -304,6 +309,11 @@ nav{
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+    cursor: pointer;
+    transition: 150ms linear;
+}
+.btn-yet:hover{
+    background-color: #e4e4e4;
 }
 .title{
     font-family: 'Rubik';
@@ -316,6 +326,24 @@ nav{
 }
 .part1{
     margin-right: 10px;
+}
+.h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.part1 p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 25px;
 }
 .other2{
     padding: 20px 17px;
@@ -335,6 +363,9 @@ nav{
     padding: 20px 0;
     border-bottom: 1px solid #D2D2D2;
 }
+.arti:last-child{
+    border: none;
+}
 .arti h3{
     font-family: 'Rubik';
     font-style: normal;
@@ -343,6 +374,7 @@ nav{
     line-height: 24px;
     color: #000000;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .arti p{
     font-family: 'Rubik';
@@ -386,7 +418,6 @@ footer{
     font-size: 12px;
     line-height: 19px;
     color: #FFFFFF;
-
 }
 .info2{
     display: flex;
@@ -432,4 +463,41 @@ footer{
 }
 .icons a{
     margin-left: 25px;
+}
+.int h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.intcards{
+    display: flex;
+    justify-content: space-between;
+}
+.intcard{
+    width: 30%;
+    background: #F6F6F6;
+    border-radius: 15px;
+    padding: 20px 17px;
+}
+.intcard h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.intcard p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+    margin-bottom: 20px;
 }
