@@ -118,6 +118,11 @@ header{
     background-color: transparent;
     color: #7296EC;
 }
+.menu2 button:active{
+    background: #7296EC;
+    color: white;
+    opacity: 0.6;
+}
 nav{
     border-bottom: 2px solid #D1D1D1;
     margin-bottom: 40px;
@@ -137,6 +142,7 @@ nav{
     text-align: center;
     color: #7F7F7F;
     text-decoration: none;
+    transition: 150ms linear;
 }
 .navbar a:hover{
     color: #5f5f5f;
@@ -220,6 +226,7 @@ nav{
     font-size: 20px;
     line-height: 26px;
     color: #000000;
+    margin-bottom: 60px;
 }
 .noti button{
     padding: 13px 30px;
@@ -231,5 +238,198 @@ nav{
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    border: 2px solid #F78B3B;
+    cursor: pointer;
+    transition: 150ms linear;
+}
+.noti button:hover{
+    background: transparent;
+    color: #F78B3B;
+}
+.noti button:active{
+    background: #F78B3B;
+    color: white;
+    opacity: 0.6;
+}
+.othercards{
+    display: flex;
+    justify-content: space-between;
+}
+.othercard{
+    display: flex;
+    padding: 20px 17px;
+    margin-bottom: 10px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 150ms linear;
+}
+.othercard h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.othercard p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+    margin-bottom: 15px;
+}
+.othercard:hover{
+    box-shadow: 0 0 10px 1px lightgray;
+    background-color: #fff;
+}
+.othercard img{
+    margin-right: 15px;
+}
+.yet{
+    width: 100%;
+}
+.btn-yet{
+    width: 100%;
+    background: #EAEAEA;
+    border-radius: 10px;
+    padding: 17px 343px;
     border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.part1{
+    margin-right: 10px;
+}
+.other2{
+    padding: 20px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.other2 h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.arti{
+    padding: 20px 0;
+    border-bottom: 1px solid #D2D2D2;
+}
+.arti h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.arti p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}
+.adv img{
+    border-radius: 15px;
+}
+.last{
+    margin-bottom: 100px;
+}
+footer{
+    background: #7297EF;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    border-bottom: 2px solid #CECECE;
+}
+.info1{
+    width: 260px;
+}
+.info1 h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.info1 p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+.info2{
+    display: flex;
+    padding-top: 43px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links:first-child{
+    margin-right: 100px;
+}
+.links a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: 150ms linear;
+}
+.links a:hover{
+    opacity: 0.8;
+}
+.socnet{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.socnet a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+}
+.icons a{
+    margin-left: 25px;
 }
