@@ -244,12 +244,12 @@ nav{
 }
 .noti button:hover{
     background: transparent;
-    color: #F78B3B;
+    color: black;
 }
 .noti button:active{
     background: #F78B3B;
     color: white;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .othercards{
     display: flex;
@@ -278,21 +278,32 @@ nav{
     color: #000000;
     margin-bottom: 10px;
 }
-.othercard p{
+.othertext p{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #4A4B4C;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 .othercard:hover{
     box-shadow: 0 0 10px 1px lightgray;
     background-color: #fff;
 }
 .othercard img{
-    margin-right: 15px;
+    margin-right: 10px;
+}
+.otherp{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.otherp p{
+    margin-top: 25px;
 }
 .yet{
     width: 100%;
@@ -335,15 +346,6 @@ nav{
     line-height: 36px;
     color: #000000;
     margin-bottom: 20px;
-}
-.part1 p{
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-    margin-top: 25px;
 }
 .other2{
     padding: 20px 17px;
@@ -463,6 +465,9 @@ footer{
 }
 .icons a{
     margin-left: 25px;
+}
+.inte{
+    margin-bottom: 100px;
 }
 .int h1{
     font-family: 'Rubik';
